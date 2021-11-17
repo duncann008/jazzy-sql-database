@@ -96,7 +96,7 @@ function renderArtists( listOfArtists ) {
         $('#artistTableBody').append(`
                 <tr>
                     <td>${artist.name}</td>
-                    <td>${artist.birthdate}</td>
+                    <td>${artist.birthDate}</td>
                 </tr>`
         );
     }
